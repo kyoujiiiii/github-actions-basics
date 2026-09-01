@@ -1,9 +1,8 @@
-nano: First Workflow
+name: First Workflow
 on: push
 jobs:
   first-job:
     runs-on: ubuntu-latest
-
-steps:
-  - name: Print greeting
-    run: echo "Hello World from LabEx"
+    steps:
+    - name: Print greeting
+      run: echo "Hello World from LabEx"
