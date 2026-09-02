@@ -1,6 +1,6 @@
 name: Deploy to Production
 
-on: workflow_dispath
+on: workflow_dispatchh
 
 jobs:
   deploy:
